@@ -1,0 +1,45 @@
+body 
+{ 
+	text-align:center;
+    padding: 0;
+    margin: 0;
+	font-family:arial;
+	color:#ffffff; 
+    background: #000000;
+    position: relative;
+	padding-top:22px;
+}
+
+.wrapper
+{
+    margin: 0 auto;
+    width:250px;
+	min-height:210px;
+	border: 1px solid #666;
+	text-align:center;
+}
+
+.info
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:4px;
+	padding-top:5px;
+	display:block;
+	width: 80%;
+	height: 25px;
+	background: url('images/bg2.jpg') repeat;
+	border: 1px solid #CCC;
+	text-transform:uppercase;
+}
+.error
+{
+    color: #A00000;
+    text-decoration: blink;
+}
+input
+{
+    background: #404040;
+    border: 1px solid #666;
+    color: #FFF;
+}
